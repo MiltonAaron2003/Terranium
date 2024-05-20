@@ -1,0 +1,80 @@
+@import url();
+
+body{
+    font-family: 'Braah One', sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+background-color: peru;
+text-align: center;
+color: white;
+}
+.container{
+    background-color: #f0f0f0;
+    width: 15%;
+    position: absolute;
+    top: 0px;
+    padding: 10%;
+    height: 100%;
+}
+
+#left-container{
+    left: 0px;
+}
+
+#right-container{
+    right: 0px;
+}
+
+.plant-holder{
+    position: relative;
+    height: 13%;
+    left: -10px;
+}
+.plant{
+    position: absolute;
+    max-width: 150%;
+    max-height: 150%;
+    z-index: 2;
+}
+
+.jar-walls{
+    height: 80%;
+    width: 60%;
+    position: absolute;
+    background-color: #d1e1df;
+    z-index: 1;
+    border-radius: 1rem;
+    bottom: 0.5%;
+    left: 20%;
+    opacity: 0.5;
+}
+.jar-top{
+position: absolute;
+background-color: #d1e1df;
+width:50%;
+height: 1%;
+bottom: 80.5;
+left: 25%;
+opacity: 0.7%;
+z-index: 1;
+}
+.jar-bottom{
+    position: absolute;
+    background-color: #d1e1df;
+    width: 50%;
+    height: 1%;
+    bottom: 0%;
+    left: 25%;
+    opacity: 0.7;
+}
+.dirt{
+    position: absolute;
+    width: 60%;
+    height: 5%;
+    background-color: black;
+    bottom: 1%;
+    left: 20%;
+    border-radius: 0 0 1rem 1rem;
+}
